@@ -1,0 +1,53 @@
+h1 {
+    color: red;
+    font-family: verdana;
+    font-size: 25px;
+  }
+  
+  h3 {
+    color: green;
+    font-size: 20px;
+    font-family: "time new roman";
+  }
+  
+  img {
+    width: 450px;
+    border-width: 8px;
+    border-color: blue;
+    border-style: groove double;
+    display: block;
+    margin: auto;
+  }
+  
+  body {
+    text-align: center;
+    background-color: lightgray;
+  }
+  
+  li {
+    list-style: none;
+    border: 5px double rgb(248, 73, 19);
+    padding: 15px;
+    font: bold 14px verdana;
+    display: inline-block;
+    
+  }
+  
+  aside {
+    color: red;
+    font: bold 14px verdana;
+  }
+  
+  footer {
+    background-color: floralwhite;
+    color: red;
+    font: bold 10px verdana;
+  }
+  
+  .bordes-redondeados { 
+    border-radius: 20px;
+  }
+
+  #enlaces {
+    border-radius: 20px;
+  }
