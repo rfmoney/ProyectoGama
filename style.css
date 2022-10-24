@@ -24,13 +24,24 @@ h1 {
     background-color: lightgray;
   }
   
-  li {
-    list-style: none;
-    border: 5px double rgb(248, 73, 19);
+  .menu a {
+    background-color: blue;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
     padding: 15px;
-    font: bold 14px verdana;
+    border-radius: 20px;
     display: inline-block;
-    
+  }
+  
+  .menu a:hover {
+    background-color: green;
+    font-size: 35px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    display: inline-block;
   }
   
   aside {
@@ -49,5 +60,5 @@ h1 {
   }
 
   #enlaces {
-    border-radius: 20px;
+    border-radius: 20px
   }
